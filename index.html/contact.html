@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right,rgb(244, 9, 9),rgb(39, 19, 220));
+        }
+        #contact{
+
+            border: 1px solid black;
+            width: 30rem;
+            height: 30rem;
+            justify-content: center;
+           margin: auto;
+           margin-top: 5rem;
+            background-color: rgb(122, 200, 200);
+        }
+        input{
+            display: block;
+            justify-self: center;
+            justify-content: center;
+            margin: auto;
+            width: 70%;
+            margin-top: 2rem;
+            height: 2rem;
+            border-radius: 5px;
+        }
+        h1{
+            display: block;
+            justify-self: center;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            
+        }
+        button{
+            display: block;
+            justify-content: center;
+            margin: auto;
+            width: 6rem;
+            height: 1.9rem;
+            background-color: blue;
+            color: white;
+            margin-top: 2rem;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="contact">
+        <h1>contact us</h1>
+        <input type="text" placeholder="Enter Your Name">
+        <input type="email" placeholder="Enter Your Email">
+        <input type="number" placeholder="Enter Your Phone Number">
+        <button type="submit" onclick="message()">Submit</button>
+    </div>
+</body>
+<script>
+    function message(){
+        alert("Thank You");
+    }
+</script>
+
+</html>
